@@ -1,0 +1,61 @@
+body{
+    background: url('back.jpeg');
+    background-size: cover;
+}
+
+.outer{
+    width: 600px;
+    height: 400px;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 13%;
+    background: url('back2.jpg');
+    background-size: cover;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+    text-align: center;
+}
+
+.counter{
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count{
+    font-size: 10em;
+    position: relative;
+    top: -100px;
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.low, .add{
+    width: 120px;
+    background-color: #0D2C54;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+    padding: 13px 15px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    user-select: none;
+}
+
+.low:hover, .add:hover{
+    background-color: #00A6ED;
+}
+.low{
+    position: relative;
+    top: -180px;
+    left: 100px;
+}
+
+.add{
+    position: relative;
+    top: -220px;
+    left: 350px;
+}
